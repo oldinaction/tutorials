@@ -17,4 +17,12 @@ public class HeavyResourceRepository {
     public void save(Map<String, Object> updates, String id) {
 
     }
+
+    public void save(HeavyResource heavyResource, String id) {
+
+    }
+
+    public void save(HeavyResourceAddressOnly partialUpdate, String id) {
+
+    }
 }
